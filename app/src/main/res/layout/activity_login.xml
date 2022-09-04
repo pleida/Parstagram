@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/veganstyle"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Instagram"
+        android:textColor="#9E000000"
+        android:textSize="55sp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/tvTitle"
+        android:background="@drawable/edit_text"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_below="@+id/etUsername"
+        android:background="@drawable/edit_text"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        app:backgroundTint="@color/blue"
+        android:background="@drawable/edit_text"
+        android:layout_below="@+id/etPassword"
+        android:padding="2dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="LOG IN" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:backgroundTint="@color/green"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text"
+        android:padding="2dp"
+        android:layout_below="@+id/btnLogin"
+        android:layout_weight="1"
+        android:text="SIGN UP" />
+</RelativeLayout>
