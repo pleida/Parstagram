@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
     tools:context=".MainActivity">
 
     <include
@@ -14,48 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-
-    <ImageView
-        android:id="@+id/ivPostImage"
+    <FrameLayout
+        android:id="@+id/flContainer"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/toolbar"
-        android:layout_marginTop="15dp"
-        android:layout_height="200dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-
-    <EditText
-        android:id="@+id/etDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ivPostImage"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Description..."/>
-
-
-    <Button
-        android:id="@+id/btnSubmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/etDescription"
-        android:layout_marginTop="8dp"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/white"
-        android:text="Submit"
-        android:textColor="@color/black" />
-
-    <Button
-        android:id="@+id/btnCaptureImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnSubmit"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="Take Picture" />
+        android:layout_above="@+id/bottom_navigation"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
