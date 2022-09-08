@@ -43,17 +43,14 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
                     case R.id.actionHome:
                         // TODO: Update fragment
-                        Toast.makeText(MainActivity.this, "Home", Toast.LENGTH_SHORT).show();
                         fragment = new PostsFragment();
                         break;
                     case R.id.actionCompose:
-                        Toast.makeText(MainActivity.this, "Compose", Toast.LENGTH_SHORT).show();
                         fragment = new ComposeFragment();
                         break;
                     case R.id.actionProfile:
                     default:
                         // TODO: Update fragment
-                        Toast.makeText(MainActivity.this, "Profile", Toast.LENGTH_SHORT).show();
                         fragment = new ProfileFragment();
                         break;
                 }

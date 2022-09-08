@@ -6,12 +6,20 @@
     tools:context="fragments.ComposeFragment">
 
 
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:id="@+id/pb"
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/ivPostImage"
         android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
         android:layout_height="200dp"
+        android:layout_marginTop="105dp"
+        android:visibility="invisible"
         tools:srcCompat="@tools:sample/avatars" />
 
 
@@ -21,11 +29,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ivPostImage"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
         android:ems="10"
+        android:hint="Description..."
         android:inputType="textPersonName"
-        android:hint="Description..."/>
+        android:visibility="invisible" />
 
 
     <Button
@@ -33,11 +42,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etDescription"
-        android:layout_marginTop="8dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
         android:backgroundTint="@color/white"
-        android:text="Submit"
-        android:textColor="@color/black" />
+        android:text="POST"
+        android:textColor="@color/black"
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/btnCaptureImage"
@@ -45,9 +55,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnSubmit"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="180dp"
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="Take Picture" />
+        android:text="Take Picture"
+        android:textColor="@color/black" />
 
 </RelativeLayout>

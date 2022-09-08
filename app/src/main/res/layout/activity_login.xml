@@ -16,26 +16,29 @@
         android:fontFamily="@font/veganstyle"
         android:gravity="center_horizontal|center_vertical"
         android:text="Instagram"
-        android:textColor="#9E000000"
-        android:textSize="55sp" />
+        android:textColor="#CB000000"
+        android:textSize="50sp" />
 
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_weight="1"
+        android:layout_height="50dp"
         android:layout_below="@+id/tvTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
         android:background="@drawable/edit_text"
-        android:layout_margin="10dp"
-        android:padding="5dp"
         android:ems="10"
         android:hint="Username"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:padding="5dp" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="50dp"
         android:layout_weight="1"
         android:ems="10"
         android:layout_below="@+id/etUsername"
@@ -48,20 +51,23 @@
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_gravity="center_vertical"
-        app:backgroundTint="@color/blue"
-        android:background="@drawable/edit_text"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/etPassword"
-        android:padding="2dp"
-        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_weight="1"
-        android:text="LOG IN" />
+        android:background="@drawable/edit_text"
+        android:padding="2dp"
+        android:text="LOG IN"
+        app:backgroundTint="@color/blue" />
 
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         app:backgroundTint="@color/green"
         android:layout_margin="10dp"
         android:background="@drawable/edit_text"
