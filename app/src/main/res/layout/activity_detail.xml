@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,11 +12,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="11dp"
-        android:textColor="@color/black"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="6dp"
         android:layout_toEndOf="@id/ivProfile"
         android:text="TextView"
+        android:textColor="@color/black"
         android:textStyle="bold"
         tools:text="leyooh" />
 
@@ -36,35 +35,38 @@
         android:id="@+id/tvDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ivLike"
+        android:layout_below="@+id/tvNberLike"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="-1dp"
-        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="11dp"
         android:layout_marginBottom="8dp"
         android:text="TextView"
         tools:text="Trying to look everything" />
 
-    <ImageView
-        android:id="@+id/ivLike"
+    <ImageButton
+        android:id="@+id/ibLike"
         android:layout_width="39dp"
         android:layout_height="36dp"
         android:layout_below="@+id/ivImage"
         android:layout_alignParentStart="true"
         android:layout_marginStart="2dp"
         android:layout_marginTop="9dp"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/like" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivComment"
         android:layout_width="40dp"
         android:layout_height="38dp"
         android:layout_below="@+id/ivImage"
         android:layout_marginStart="17dp"
         android:layout_marginTop="8dp"
-        android:layout_toEndOf="@+id/ivLike"
+        android:layout_toEndOf="@+id/ibLike"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/comment" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivShare"
         android:layout_width="40dp"
         android:layout_height="36dp"
@@ -72,9 +74,10 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="8dp"
         android:layout_toEndOf="@+id/ivComment"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/share" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/ivSave"
         android:layout_width="40dp"
         android:layout_height="35dp"
@@ -82,15 +85,36 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/bookmark" />
 
     <ImageView
         android:id="@+id/ivProfile"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="34dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvNberLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibLike"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDescription"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView" />
+
 </RelativeLayout>

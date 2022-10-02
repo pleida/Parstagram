@@ -12,20 +12,22 @@
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/edit_text.xml" value="0.1615" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_account.xml" value="0.188" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_baseline_10mp_24.xml" value="0.188" />
+        <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_baseline_access_time_filled_24.xml" value="0.164" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_baseline_add_a_photo_24.xml" value="0.188" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_baseline_airline_seat_individual_suite_24.xml" value="0.188" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_baseline_all_inclusive_24.xml" value="0.188" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_baseline_alternate_email_24.xml" value="0.188" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_home_outline.xml" value="0.188" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_launcher_background.xml" value="0.188" />
+        <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_red_heart.xml" value="0.173" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_send.xml" value="0.1075" />
-        <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_detail.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_detail.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_compose.xml" value="0.1" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_posts.xml" value="0.1" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/grid_items.xml" value="0.11543715846994536" />
-        <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/item_post.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/item_post.xml" value="0.22" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/profile_fragment.xml" value="0.1465811965811966" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/layout/tool_bar.xml" value="0.22" />
         <entry key="..\:/Users/Leyoo/AndroidStudioProjects/Parstagram/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.1796875" />
