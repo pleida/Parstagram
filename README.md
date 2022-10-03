@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='ParstaGif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='ParstaGif2.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 GIF created with XRecorder.
 
